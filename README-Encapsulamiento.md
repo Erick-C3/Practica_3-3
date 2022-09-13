@@ -9,8 +9,8 @@
     1. Bajo acoplamiento - Modificar la implementacion en cualquier momento
 - ### Tipos de encapsulamiento:
     1. Public: puede accederse fuera y dentro de la clase/objeto, por defecto todo es publico
-    1. Protected: solo se puede acceder mediante la clase o subclases 
-    1. Private: solo se puede acceder dentro de la clase ``(proximamente)``
+    1. Protected: solo se puede acceder mediante la clase o subclases ``(proximamente)``
+    1. Private: solo se puede acceder dentro de la clase 
 - ### Cuando usar private?
     - Como regla general, primero hacer que todos los métodos/estados de clase sean privados de forma predeterminada.
 - ### Cuando usar public?
