@@ -1,18 +1,24 @@
-const Usuario = require("./");
+const Usuario = require("./Usuario");
 
+/*
+    unUsuario quiero que tenga 40 de saldo
+    y se llama pepito
+*/
 
-const unUsuario = new Usuario();
+const unUsuario = new Usuario(40, "pepito");
 const otroUsuario = new Usuario();
 
+
+
+console.log(  unUsuario.getSaldo()  );
 unUsuario.setSaldo(50);
 console.log(  unUsuario.getSaldo()  );
 
-otroUsuario.setSaldo(100);
-console.log(  otroUsuario.getSaldo()  );
+/* otroUsuario.setSaldo(100);
+console.log(  otroUsuario.getSaldo()  ); */
 
-
-
-/* unUsuario.setNombre("Erick");
+/* console.log(  unUsuario.getNombre()  );
+unUsuario.setNombre("Erick");
 console.log(  unUsuario.getNombre()  ); */
 
 // saldo = 100

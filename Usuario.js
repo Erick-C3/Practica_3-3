@@ -7,6 +7,11 @@ class Usuario{
     #nombre = "def nombre";
     #numeroCelular = 0;
 
+    constructor(saldo, nombre){
+        this.#saldo = saldo;
+        this.#nombre = nombre;
+    }
+
     //Getter y Setter
 
     /**
